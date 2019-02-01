@@ -9,9 +9,14 @@
 				{{ form.username() }}
 			</div>	
 			<div>	
-				{{ form.username.label() }}
-				{{ form.username() }}
+				{{ form.password.label() }}
+				{{ form.password() }}
 			</div>
 		</fieldset>
+		<div>
+			{{ form.submit() }}
+		</div>
+		<div>
+			<a  href="{{ url_for('login') }}">Sign in</a>
 	</form>
 {% endblock content %}
