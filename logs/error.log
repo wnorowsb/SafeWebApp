@@ -250,3 +250,129 @@
 [Sat Feb 02 18:08:18.099669 2019] [wsgi:error] [pid 8747:tid 139842845202176] [remote 127.0.0.1:46430]     raise BuildError(endpoint, values, method, self)
 [Sat Feb 02 18:08:18.099674 2019] [wsgi:error] [pid 8747:tid 139842845202176] [remote 127.0.0.1:46430] werkzeug.routing.BuildError: Could not build url for endpoint 'Logout'. Did you mean 'logout' instead?
 [Sat Feb 02 18:08:18.099701 2019] [wsgi:error] [pid 8747:tid 139842845202176] [remote 127.0.0.1:46430] 
+[Sat Feb 02 21:08:50.012329 2019] [ssl:emerg] [pid 1120:tid 139904268106688] AH02562: Failed to configure certificate localhost:443:0 (with chain), check /home/bartek/test.crt
+[Sat Feb 02 21:08:50.012752 2019] [ssl:emerg] [pid 1120:tid 139904268106688] SSL Library Error: error:140AB18E:SSL routines:SSL_CTX_use_certificate:ca md too weak
+[Sat Feb 02 21:24:12.716452 2019] [ssl:emerg] [pid 3835:tid 140515168631744] AH02562: Failed to configure certificate localhost:443:0 (with chain), check /home/bartek/test.crt
+[Sat Feb 02 21:24:12.716495 2019] [ssl:emerg] [pid 3835:tid 140515168631744] SSL Library Error: error:140AB18E:SSL routines:SSL_CTX_use_certificate:ca md too weak
+[Sat Feb 02 21:24:30.634515 2019] [ssl:emerg] [pid 3849:tid 140552007347136] AH02562: Failed to configure certificate localhost:443:0 (with chain), check /home/bartek/test.crt
+[Sat Feb 02 21:24:30.634557 2019] [ssl:emerg] [pid 3849:tid 140552007347136] SSL Library Error: error:140AB18E:SSL routines:SSL_CTX_use_certificate:ca md too weak
+[Sat Feb 02 21:32:36.492755 2019] [ssl:emerg] [pid 3978:tid 139862075042752] AH02562: Failed to configure certificate localhost:443:0 (with chain), check /home/bartek/test.crt
+[Sat Feb 02 21:32:36.492810 2019] [ssl:emerg] [pid 3978:tid 139862075042752] SSL Library Error: error:140AB18E:SSL routines:SSL_CTX_use_certificate:ca md too weak
+[Sat Feb 02 21:54:25.351859 2019] [ssl:emerg] [pid 1075:tid 140157149658048] AH02562: Failed to configure certificate localhost:443:0 (with chain), check /home/bartek/test.crt
+[Sat Feb 02 21:54:25.352389 2019] [ssl:emerg] [pid 1075:tid 140157149658048] SSL Library Error: error:140AB18E:SSL routines:SSL_CTX_use_certificate:ca md too weak
+[Sat Feb 02 21:57:43.073873 2019] [ssl:emerg] [pid 2562:tid 140300046670784] AH02562: Failed to configure certificate localhost:443:0 (with chain), check /home/bartek/test.crt
+[Sat Feb 02 21:57:43.073920 2019] [ssl:emerg] [pid 2562:tid 140300046670784] SSL Library Error: error:140AB18E:SSL routines:SSL_CTX_use_certificate:ca md too weak
+[Sat Feb 02 22:17:37.558703 2019] [ssl:error] [pid 2865:tid 140321337318336] AH02578: Init: Unable to read pass phrase [Hint: key introduced or changed before restart?]
+[Sat Feb 02 22:17:37.558758 2019] [ssl:error] [pid 2865:tid 140321337318336] SSL Library Error: error:0D0680A8:asn1 encoding routines:asn1_check_tlen:wrong tag
+[Sat Feb 02 22:17:37.558774 2019] [ssl:error] [pid 2865:tid 140321337318336] SSL Library Error: error:0D08303A:asn1 encoding routines:asn1_template_noexp_d2i:nested asn1 error
+[Sat Feb 02 22:17:37.558798 2019] [ssl:error] [pid 2865:tid 140321337318336] SSL Library Error: error:0D0680A8:asn1 encoding routines:asn1_check_tlen:wrong tag
+[Sat Feb 02 22:17:37.558811 2019] [ssl:error] [pid 2865:tid 140321337318336] SSL Library Error: error:0D07803A:asn1 encoding routines:asn1_item_embed_d2i:nested asn1 error (Type=RSA)
+[Sat Feb 02 22:17:37.558836 2019] [ssl:error] [pid 2865:tid 140321337318336] SSL Library Error: error:04093004:rsa routines:old_rsa_priv_decode:RSA lib
+[Sat Feb 02 22:17:37.558850 2019] [ssl:error] [pid 2865:tid 140321337318336] SSL Library Error: error:0D0680A8:asn1 encoding routines:asn1_check_tlen:wrong tag
+[Sat Feb 02 22:17:37.558863 2019] [ssl:error] [pid 2865:tid 140321337318336] SSL Library Error: error:0D07803A:asn1 encoding routines:asn1_item_embed_d2i:nested asn1 error (Type=PKCS8_PRIV_KEY_INFO)
+[Sat Feb 02 22:17:37.558888 2019] [ssl:emerg] [pid 2865:tid 140321337318336] AH02564: Failed to configure encrypted (?) private key localhost:443:0, check /home/bartek/testowy.key
+[Sat Feb 02 22:20:36.064128 2019] [ssl:error] [pid 2922:tid 140617661905856] AH02578: Init: Unable to read pass phrase [Hint: key introduced or changed before restart?]
+[Sat Feb 02 22:20:36.064180 2019] [ssl:error] [pid 2922:tid 140617661905856] SSL Library Error: error:0D0680A8:asn1 encoding routines:asn1_check_tlen:wrong tag
+[Sat Feb 02 22:20:36.064198 2019] [ssl:error] [pid 2922:tid 140617661905856] SSL Library Error: error:0D08303A:asn1 encoding routines:asn1_template_noexp_d2i:nested asn1 error
+[Sat Feb 02 22:20:36.064211 2019] [ssl:error] [pid 2922:tid 140617661905856] SSL Library Error: error:0D0680A8:asn1 encoding routines:asn1_check_tlen:wrong tag
+[Sat Feb 02 22:20:36.064225 2019] [ssl:error] [pid 2922:tid 140617661905856] SSL Library Error: error:0D07803A:asn1 encoding routines:asn1_item_embed_d2i:nested asn1 error (Type=RSA)
+[Sat Feb 02 22:20:36.064238 2019] [ssl:error] [pid 2922:tid 140617661905856] SSL Library Error: error:04093004:rsa routines:old_rsa_priv_decode:RSA lib
+[Sat Feb 02 22:20:36.064251 2019] [ssl:error] [pid 2922:tid 140617661905856] SSL Library Error: error:0D0680A8:asn1 encoding routines:asn1_check_tlen:wrong tag
+[Sat Feb 02 22:20:36.064264 2019] [ssl:error] [pid 2922:tid 140617661905856] SSL Library Error: error:0D07803A:asn1 encoding routines:asn1_item_embed_d2i:nested asn1 error (Type=PKCS8_PRIV_KEY_INFO)
+[Sat Feb 02 22:20:36.064296 2019] [ssl:emerg] [pid 2922:tid 140617661905856] AH02564: Failed to configure encrypted (?) private key localhost:443:0, check /home/bartek/testowy.key
+[Sat Feb 02 22:31:18.158230 2019] [ssl:error] [pid 3047:tid 139816268934080] AH02578: Init: Unable to read pass phrase [Hint: key introduced or changed before restart?]
+[Sat Feb 02 22:31:18.158287 2019] [ssl:error] [pid 3047:tid 139816268934080] SSL Library Error: error:0D0680A8:asn1 encoding routines:asn1_check_tlen:wrong tag
+[Sat Feb 02 22:31:18.158304 2019] [ssl:error] [pid 3047:tid 139816268934080] SSL Library Error: error:0D08303A:asn1 encoding routines:asn1_template_noexp_d2i:nested asn1 error
+[Sat Feb 02 22:31:18.158315 2019] [ssl:error] [pid 3047:tid 139816268934080] SSL Library Error: error:0D0680A8:asn1 encoding routines:asn1_check_tlen:wrong tag
+[Sat Feb 02 22:31:18.158324 2019] [ssl:error] [pid 3047:tid 139816268934080] SSL Library Error: error:0D07803A:asn1 encoding routines:asn1_item_embed_d2i:nested asn1 error (Type=RSA)
+[Sat Feb 02 22:31:18.158332 2019] [ssl:error] [pid 3047:tid 139816268934080] SSL Library Error: error:04093004:rsa routines:old_rsa_priv_decode:RSA lib
+[Sat Feb 02 22:31:18.158340 2019] [ssl:error] [pid 3047:tid 139816268934080] SSL Library Error: error:0D0680A8:asn1 encoding routines:asn1_check_tlen:wrong tag
+[Sat Feb 02 22:31:18.158353 2019] [ssl:error] [pid 3047:tid 139816268934080] SSL Library Error: error:0D07803A:asn1 encoding routines:asn1_item_embed_d2i:nested asn1 error (Type=PKCS8_PRIV_KEY_INFO)
+[Sat Feb 02 22:31:18.158373 2019] [ssl:emerg] [pid 3047:tid 139816268934080] AH02564: Failed to configure encrypted (?) private key localhost:443:0, check /home/bartek/testowy.key
+[Sat Feb 02 22:51:05.370459 2019] [ssl:error] [pid 3615:tid 140702729632704] AH02578: Init: Unable to read pass phrase [Hint: key introduced or changed before restart?]
+[Sat Feb 02 22:51:05.370505 2019] [ssl:error] [pid 3615:tid 140702729632704] SSL Library Error: error:0D0680A8:asn1 encoding routines:asn1_check_tlen:wrong tag
+[Sat Feb 02 22:51:05.370520 2019] [ssl:error] [pid 3615:tid 140702729632704] SSL Library Error: error:0D08303A:asn1 encoding routines:asn1_template_noexp_d2i:nested asn1 error
+[Sat Feb 02 22:51:05.370528 2019] [ssl:error] [pid 3615:tid 140702729632704] SSL Library Error: error:0D0680A8:asn1 encoding routines:asn1_check_tlen:wrong tag
+[Sat Feb 02 22:51:05.370537 2019] [ssl:error] [pid 3615:tid 140702729632704] SSL Library Error: error:0D07803A:asn1 encoding routines:asn1_item_embed_d2i:nested asn1 error (Type=RSA)
+[Sat Feb 02 22:51:05.370546 2019] [ssl:error] [pid 3615:tid 140702729632704] SSL Library Error: error:04093004:rsa routines:old_rsa_priv_decode:RSA lib
+[Sat Feb 02 22:51:05.370553 2019] [ssl:error] [pid 3615:tid 140702729632704] SSL Library Error: error:0D0680A8:asn1 encoding routines:asn1_check_tlen:wrong tag
+[Sat Feb 02 22:51:05.370564 2019] [ssl:error] [pid 3615:tid 140702729632704] SSL Library Error: error:0D07803A:asn1 encoding routines:asn1_item_embed_d2i:nested asn1 error (Type=PKCS8_PRIV_KEY_INFO)
+[Sat Feb 02 22:51:05.370588 2019] [ssl:emerg] [pid 3615:tid 140702729632704] AH02564: Failed to configure encrypted (?) private key localhost:443:0, check /home/bartek/testowy.key
+[Sat Feb 02 22:52:30.761271 2019] [ssl:warn] [pid 3672:tid 140447998077888] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Feb 02 22:52:30.767480 2019] [ssl:warn] [pid 3673:tid 140447998077888] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Feb 02 23:01:04.430979 2019] [ssl:warn] [pid 3673:tid 140447998077888] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Feb 02 23:02:27.934941 2019] [ssl:warn] [pid 3673:tid 140447998077888] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Feb 02 23:32:18.144930 2019] [wsgi:error] [pid 4667:tid 140447875028736] [remote 127.0.0.1:52784] mod_wsgi (pid=4667): Target WSGI script '/home/bartek/flask/moi.wsgi' cannot be loaded as Python module.
+[Sat Feb 02 23:32:18.144994 2019] [wsgi:error] [pid 4667:tid 140447875028736] [remote 127.0.0.1:52784] mod_wsgi (pid=4667): Exception occurred processing WSGI script '/home/bartek/flask/moi.wsgi'.
+[Sat Feb 02 23:32:18.145361 2019] [wsgi:error] [pid 4667:tid 140447875028736] [remote 127.0.0.1:52784] Traceback (most recent call last):
+[Sat Feb 02 23:32:18.145395 2019] [wsgi:error] [pid 4667:tid 140447875028736] [remote 127.0.0.1:52784]   File "/home/bartek/flask/moi.wsgi", line 6, in <module>
+[Sat Feb 02 23:32:18.145401 2019] [wsgi:error] [pid 4667:tid 140447875028736] [remote 127.0.0.1:52784]     from moi import app as application
+[Sat Feb 02 23:32:18.145409 2019] [wsgi:error] [pid 4667:tid 140447875028736] [remote 127.0.0.1:52784]   File "/home/bartek/flask/moi/__init__.py", line 12, in <module>
+[Sat Feb 02 23:32:18.145414 2019] [wsgi:error] [pid 4667:tid 140447875028736] [remote 127.0.0.1:52784]     from moi import routes
+[Sat Feb 02 23:32:18.145421 2019] [wsgi:error] [pid 4667:tid 140447875028736] [remote 127.0.0.1:52784]   File "/home/bartek/flask/moi/routes.py", line 3, in <module>
+[Sat Feb 02 23:32:18.145426 2019] [wsgi:error] [pid 4667:tid 140447875028736] [remote 127.0.0.1:52784]     from moi.forms import RegistrationForm, LoginForm, LoggedForm
+[Sat Feb 02 23:32:18.145445 2019] [wsgi:error] [pid 4667:tid 140447875028736] [remote 127.0.0.1:52784]   File "/home/bartek/flask/moi/forms.py", line 12
+[Sat Feb 02 23:32:18.145456 2019] [wsgi:error] [pid 4667:tid 140447875028736] [remote 127.0.0.1:52784]     username = StringField('Username', validators=[DataRequired(), Length(min=2, max=20)], check_characters)
+[Sat Feb 02 23:32:18.145490 2019] [wsgi:error] [pid 4667:tid 140447875028736] [remote 127.0.0.1:52784]                                                                                           ^
+[Sat Feb 02 23:32:18.145502 2019] [wsgi:error] [pid 4667:tid 140447875028736] [remote 127.0.0.1:52784] SyntaxError: positional argument follows keyword argument
+[Sat Feb 02 23:33:29.222396 2019] [wsgi:error] [pid 4667:tid 140447866636032] [remote 127.0.0.1:52786] [2019-02-02 23:33:29,218] ERROR in app: Exception on / [GET]
+[Sat Feb 02 23:33:29.222427 2019] [wsgi:error] [pid 4667:tid 140447866636032] [remote 127.0.0.1:52786] Traceback (most recent call last):
+[Sat Feb 02 23:33:29.222434 2019] [wsgi:error] [pid 4667:tid 140447866636032] [remote 127.0.0.1:52786]   File "/home/bartek/venvs/flask/lib/python3.6/site-packages/flask/app.py", line 2292, in wsgi_app
+[Sat Feb 02 23:33:29.222439 2019] [wsgi:error] [pid 4667:tid 140447866636032] [remote 127.0.0.1:52786]     response = self.full_dispatch_request()
+[Sat Feb 02 23:33:29.222444 2019] [wsgi:error] [pid 4667:tid 140447866636032] [remote 127.0.0.1:52786]   File "/home/bartek/venvs/flask/lib/python3.6/site-packages/flask/app.py", line 1815, in full_dispatch_request
+[Sat Feb 02 23:33:29.222450 2019] [wsgi:error] [pid 4667:tid 140447866636032] [remote 127.0.0.1:52786]     rv = self.handle_user_exception(e)
+[Sat Feb 02 23:33:29.222456 2019] [wsgi:error] [pid 4667:tid 140447866636032] [remote 127.0.0.1:52786]   File "/home/bartek/venvs/flask/lib/python3.6/site-packages/flask/app.py", line 1718, in handle_user_exception
+[Sat Feb 02 23:33:29.222462 2019] [wsgi:error] [pid 4667:tid 140447866636032] [remote 127.0.0.1:52786]     reraise(exc_type, exc_value, tb)
+[Sat Feb 02 23:33:29.222469 2019] [wsgi:error] [pid 4667:tid 140447866636032] [remote 127.0.0.1:52786]   File "/home/bartek/venvs/flask/lib/python3.6/site-packages/flask/_compat.py", line 35, in reraise
+[Sat Feb 02 23:33:29.222473 2019] [wsgi:error] [pid 4667:tid 140447866636032] [remote 127.0.0.1:52786]     raise value
+[Sat Feb 02 23:33:29.222477 2019] [wsgi:error] [pid 4667:tid 140447866636032] [remote 127.0.0.1:52786]   File "/home/bartek/venvs/flask/lib/python3.6/site-packages/flask/app.py", line 1813, in full_dispatch_request
+[Sat Feb 02 23:33:29.222481 2019] [wsgi:error] [pid 4667:tid 140447866636032] [remote 127.0.0.1:52786]     rv = self.dispatch_request()
+[Sat Feb 02 23:33:29.222484 2019] [wsgi:error] [pid 4667:tid 140447866636032] [remote 127.0.0.1:52786]   File "/home/bartek/venvs/flask/lib/python3.6/site-packages/flask/app.py", line 1799, in dispatch_request
+[Sat Feb 02 23:33:29.222497 2019] [wsgi:error] [pid 4667:tid 140447866636032] [remote 127.0.0.1:52786]     return self.view_functions[rule.endpoint](**req.view_args)
+[Sat Feb 02 23:33:29.222500 2019] [wsgi:error] [pid 4667:tid 140447866636032] [remote 127.0.0.1:52786]   File "/home/bartek/flask/moi/routes.py", line 32, in register
+[Sat Feb 02 23:33:29.222504 2019] [wsgi:error] [pid 4667:tid 140447866636032] [remote 127.0.0.1:52786]     return render_template('reg.html', title='registration', form=form)
+[Sat Feb 02 23:33:29.222507 2019] [wsgi:error] [pid 4667:tid 140447866636032] [remote 127.0.0.1:52786]   File "/home/bartek/venvs/flask/lib/python3.6/site-packages/flask/templating.py", line 133, in render_template
+[Sat Feb 02 23:33:29.222511 2019] [wsgi:error] [pid 4667:tid 140447866636032] [remote 127.0.0.1:52786]     ctx.app.update_template_context(context)
+[Sat Feb 02 23:33:29.222517 2019] [wsgi:error] [pid 4667:tid 140447866636032] [remote 127.0.0.1:52786]   File "/home/bartek/venvs/flask/lib/python3.6/site-packages/flask/app.py", line 792, in update_template_context
+[Sat Feb 02 23:33:29.222523 2019] [wsgi:error] [pid 4667:tid 140447866636032] [remote 127.0.0.1:52786]     context.update(func())
+[Sat Feb 02 23:33:29.222528 2019] [wsgi:error] [pid 4667:tid 140447866636032] [remote 127.0.0.1:52786]   File "/home/bartek/venvs/flask/lib/python3.6/site-packages/flask_login/utils.py", line 368, in _user_context_processor
+[Sat Feb 02 23:33:29.222532 2019] [wsgi:error] [pid 4667:tid 140447866636032] [remote 127.0.0.1:52786]     return dict(current_user=_get_user())
+[Sat Feb 02 23:33:29.222535 2019] [wsgi:error] [pid 4667:tid 140447866636032] [remote 127.0.0.1:52786]   File "/home/bartek/venvs/flask/lib/python3.6/site-packages/flask_login/utils.py", line 335, in _get_user
+[Sat Feb 02 23:33:29.222538 2019] [wsgi:error] [pid 4667:tid 140447866636032] [remote 127.0.0.1:52786]     current_app.login_manager._load_user()
+[Sat Feb 02 23:33:29.222541 2019] [wsgi:error] [pid 4667:tid 140447866636032] [remote 127.0.0.1:52786]   File "/home/bartek/venvs/flask/lib/python3.6/site-packages/flask_login/login_manager.py", line 359, in _load_user
+[Sat Feb 02 23:33:29.222545 2019] [wsgi:error] [pid 4667:tid 140447866636032] [remote 127.0.0.1:52786]     return self.reload_user()
+[Sat Feb 02 23:33:29.222550 2019] [wsgi:error] [pid 4667:tid 140447866636032] [remote 127.0.0.1:52786]   File "/home/bartek/venvs/flask/lib/python3.6/site-packages/flask_login/login_manager.py", line 317, in reload_user
+[Sat Feb 02 23:33:29.222556 2019] [wsgi:error] [pid 4667:tid 140447866636032] [remote 127.0.0.1:52786]     "No user_loader has been installed for this "
+[Sat Feb 02 23:33:29.222563 2019] [wsgi:error] [pid 4667:tid 140447866636032] [remote 127.0.0.1:52786] Exception: No user_loader has been installed for this LoginManager. Refer tohttps://flask-login.readthedocs.io/en/latest/#how-it-works for more info.
+[Sat Feb 02 23:33:29.222592 2019] [wsgi:error] [pid 4667:tid 140447866636032] [remote 127.0.0.1:52786] 
+[Sun Feb 03 00:05:39.117358 2019] [wsgi:error] [pid 5072:tid 140447866636032] [remote 127.0.0.1:53010] [2019-02-03 00:05:39,113] ERROR in app: Exception on / [POST]
+[Sun Feb 03 00:05:39.117403 2019] [wsgi:error] [pid 5072:tid 140447866636032] [remote 127.0.0.1:53010] Traceback (most recent call last):
+[Sun Feb 03 00:05:39.117412 2019] [wsgi:error] [pid 5072:tid 140447866636032] [remote 127.0.0.1:53010]   File "/home/bartek/venvs/flask/lib/python3.6/site-packages/flask/app.py", line 2292, in wsgi_app
+[Sun Feb 03 00:05:39.117418 2019] [wsgi:error] [pid 5072:tid 140447866636032] [remote 127.0.0.1:53010]     response = self.full_dispatch_request()
+[Sun Feb 03 00:05:39.117424 2019] [wsgi:error] [pid 5072:tid 140447866636032] [remote 127.0.0.1:53010]   File "/home/bartek/venvs/flask/lib/python3.6/site-packages/flask/app.py", line 1815, in full_dispatch_request
+[Sun Feb 03 00:05:39.117430 2019] [wsgi:error] [pid 5072:tid 140447866636032] [remote 127.0.0.1:53010]     rv = self.handle_user_exception(e)
+[Sun Feb 03 00:05:39.117436 2019] [wsgi:error] [pid 5072:tid 140447866636032] [remote 127.0.0.1:53010]   File "/home/bartek/venvs/flask/lib/python3.6/site-packages/flask/app.py", line 1718, in handle_user_exception
+[Sun Feb 03 00:05:39.117452 2019] [wsgi:error] [pid 5072:tid 140447866636032] [remote 127.0.0.1:53010]     reraise(exc_type, exc_value, tb)
+[Sun Feb 03 00:05:39.117458 2019] [wsgi:error] [pid 5072:tid 140447866636032] [remote 127.0.0.1:53010]   File "/home/bartek/venvs/flask/lib/python3.6/site-packages/flask/_compat.py", line 35, in reraise
+[Sun Feb 03 00:05:39.117464 2019] [wsgi:error] [pid 5072:tid 140447866636032] [remote 127.0.0.1:53010]     raise value
+[Sun Feb 03 00:05:39.117469 2019] [wsgi:error] [pid 5072:tid 140447866636032] [remote 127.0.0.1:53010]   File "/home/bartek/venvs/flask/lib/python3.6/site-packages/flask/app.py", line 1813, in full_dispatch_request
+[Sun Feb 03 00:05:39.117475 2019] [wsgi:error] [pid 5072:tid 140447866636032] [remote 127.0.0.1:53010]     rv = self.dispatch_request()
+[Sun Feb 03 00:05:39.117480 2019] [wsgi:error] [pid 5072:tid 140447866636032] [remote 127.0.0.1:53010]   File "/home/bartek/venvs/flask/lib/python3.6/site-packages/flask/app.py", line 1799, in dispatch_request
+[Sun Feb 03 00:05:39.117486 2019] [wsgi:error] [pid 5072:tid 140447866636032] [remote 127.0.0.1:53010]     return self.view_functions[rule.endpoint](**req.view_args)
+[Sun Feb 03 00:05:39.117492 2019] [wsgi:error] [pid 5072:tid 140447866636032] [remote 127.0.0.1:53010]   File "/home/bartek/flask/moi/routes.py", line 24, in register
+[Sun Feb 03 00:05:39.117497 2019] [wsgi:error] [pid 5072:tid 140447866636032] [remote 127.0.0.1:53010]     if form.validate_on_submit():
+[Sun Feb 03 00:05:39.117503 2019] [wsgi:error] [pid 5072:tid 140447866636032] [remote 127.0.0.1:53010]   File "/home/bartek/venvs/flask/lib/python3.6/site-packages/flask_wtf/form.py", line 101, in validate_on_submit
+[Sun Feb 03 00:05:39.117507 2019] [wsgi:error] [pid 5072:tid 140447866636032] [remote 127.0.0.1:53010]     return self.is_submitted() and self.validate()
+[Sun Feb 03 00:05:39.117510 2019] [wsgi:error] [pid 5072:tid 140447866636032] [remote 127.0.0.1:53010]   File "/home/bartek/venvs/flask/lib/python3.6/site-packages/wtforms/form.py", line 310, in validate
+[Sun Feb 03 00:05:39.117514 2019] [wsgi:error] [pid 5072:tid 140447866636032] [remote 127.0.0.1:53010]     return super(Form, self).validate(extra)
+[Sun Feb 03 00:05:39.117517 2019] [wsgi:error] [pid 5072:tid 140447866636032] [remote 127.0.0.1:53010]   File "/home/bartek/venvs/flask/lib/python3.6/site-packages/wtforms/form.py", line 152, in validate
+[Sun Feb 03 00:05:39.117521 2019] [wsgi:error] [pid 5072:tid 140447866636032] [remote 127.0.0.1:53010]     if not field.validate(self, extra):
+[Sun Feb 03 00:05:39.117524 2019] [wsgi:error] [pid 5072:tid 140447866636032] [remote 127.0.0.1:53010]   File "/home/bartek/venvs/flask/lib/python3.6/site-packages/wtforms/fields/core.py", line 206, in validate
+[Sun Feb 03 00:05:39.117527 2019] [wsgi:error] [pid 5072:tid 140447866636032] [remote 127.0.0.1:53010]     stop_validation = self._run_validation_chain(form, chain)
+[Sun Feb 03 00:05:39.117531 2019] [wsgi:error] [pid 5072:tid 140447866636032] [remote 127.0.0.1:53010]   File "/home/bartek/venvs/flask/lib/python3.6/site-packages/wtforms/fields/core.py", line 226, in _run_validation_chain
+[Sun Feb 03 00:05:39.117534 2019] [wsgi:error] [pid 5072:tid 140447866636032] [remote 127.0.0.1:53010]     validator(form, self)
+[Sun Feb 03 00:05:39.117537 2019] [wsgi:error] [pid 5072:tid 140447866636032] [remote 127.0.0.1:53010]   File "/home/bartek/flask/moi/forms.py", line 9, in check_characters
+[Sun Feb 03 00:05:39.117541 2019] [wsgi:error] [pid 5072:tid 140447866636032] [remote 127.0.0.1:53010]     raiseValidationError('Forbidden character used.')
+[Sun Feb 03 00:05:39.117546 2019] [wsgi:error] [pid 5072:tid 140447866636032] [remote 127.0.0.1:53010] NameError: name 'raiseValidationError' is not defined
+[Sun Feb 03 00:05:39.117575 2019] [wsgi:error] [pid 5072:tid 140447866636032] [remote 127.0.0.1:53010] 
+[Sun Feb 03 00:06:49.475533 2019] [ssl:warn] [pid 3673:tid 140447998077888] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
