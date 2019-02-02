@@ -16,4 +16,9 @@ class RegistrationForm(FlaskForm):
 class LoginForm(FlaskForm):
     username = StringField('Username', validators=[DataRequired(), Length(min=2, max=20)])
     password = PasswordField('Password', validators=[DataRequired()])
-    submit = SubmitField('Sign Up')
+    submit = SubmitField('Sign In')
+
+class LoggedForm(FlaskForm):
+    current_password=StringField('Current Password', validators=[DataRequired(),Length(min=3, max=20)])
+    new_password=StringField('New Password', validators=[DataRequired(),Length(min=3, max=20)])
+    submit = SubmitField ('Change')

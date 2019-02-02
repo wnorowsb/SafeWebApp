@@ -1,0 +1,22 @@
+{% extends "layout.html" %}
+{% block content %}
+	<form method="POST" action="">
+		{{ form.hidden_tag() }}
+	Logged as: {{ current_user.username }}
+		<fieldset>
+			<div>
+				{{ form.current_password.label() }}
+				
+				{{ form.current_password() }}
+			</div>	
+			<div>	
+				{{ form.new_password.label() }}
+				{{ form.new_password() }}
+			</div>
+			<div>
+				{{ form.submit() }}
+			</div>
+		</fieldset>
+	<a  href="{{ url_for('logout') }}">Logout</a>
+	</form>
+{% endblock content %}
