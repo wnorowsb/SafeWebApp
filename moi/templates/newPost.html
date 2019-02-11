@@ -1,0 +1,22 @@
+{% extends "layout.html" %}
+{% block content %}
+	<form method="POST" action="">
+		{{ form.hidden_tag() }}
+            <legend> {{ legend }}</legend>
+			<div>
+				{{ form.title.label() }}
+				
+				{{ form.title() }}
+			</div>	
+			<div>	
+				{{ form.content.label() }}
+                <br>
+				{{ form.content(rows='15',cols='70') }}
+			</div>
+
+		<div>
+			{{ form.submit() }}
+		</div>
+
+	</form>
+{% endblock content %}

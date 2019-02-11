@@ -1,0 +1,17 @@
+{% extends "layout.html" %}
+{% block content %}
+
+	Logged as: {{ current_user.username }}
+    <br>
+    <a href="{{ url_for('newPost') }}" >New Post</a>
+    <a  href="{{ url_for('changePassword') }}" >Change Password</a>
+    <a  href="{{ url_for('logout') }}">Logout</a>
+    {%  for post in posts %}
+        <fieldset>
+            <small>{{ post.author.username }}</small>
+            <h4><a href="{{ url_for('post', post_id=post.id )}}">{{ post.title }}</a></h4>
+            <p>{{ post.content }}</p>
+        </fieldset>
+
+    {% endfor %}
+{% endblock content %}
